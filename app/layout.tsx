@@ -1,14 +1,13 @@
+// app/layout.tsx
 export const metadata = {
   title: 'Crib Verify',
-  description: 'Email verification for Crib',
+  description: 'Verify your Crib account',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head />
       <body>{children}</body>
     </html>
   );
 }
-
